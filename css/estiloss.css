@@ -1,0 +1,109 @@
+body{
+    font-family: Arial;
+    font-size: 12px;
+    /*cambio*/
+    margin: auto;
+    width: 80%;
+}
+#menuprincipal{
+    background: black;
+    width: 100%;
+    margin: 0px;
+}
+#menuprincipal ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#menuprincipal ul li{
+    float: left;
+    list-style: none;
+}
+
+#menuprincipal ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    width: 90px;
+    text-align: center;
+    color: white;
+}
+
+#menuprincipal ul li a:hover{
+    background: #347fe5;
+    font-weight: bold;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.panel{
+    margin: 10px 10px 10px 0px;
+    background: #efefef;
+    border: solid 1px #adadad;
+    font-family: Arial;
+    font-size: 12px;
+    /*Cambio*/
+    width: 25%;
+    float: left;
+}
+
+.panel .contenedor{
+    padding: 10px;
+    line-height: 150%;
+}
+
+.panel .contenedor h1{
+    background: #599bff;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.articulo{
+    background: #edf8eb;
+    border: solid 1px #647865;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    height: 400px;
+    text-align: justify;
+    /*cambio*/
+    width: 70%;
+    float: right;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+}
+
+.articulo img{
+    float: right;
+    padding: 10px ;
+}
+
+.articulo h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #1d24b3;
+}
+
+
+footer{
+    display: block;
+    background: black;
+    height: 60px;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
